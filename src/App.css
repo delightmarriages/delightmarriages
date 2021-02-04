@@ -279,7 +279,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .wedding-details{ overflow: hidden; position: relative; }
 
-.wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
+.wedding-details:after{ content:''; position: absolute; top: 20px; bottom: 0; left: 50%; margin-left: -.5px;
 	width: 1px; background: #ccc; }
 
 .w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: -40px; }
@@ -288,7 +288,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .w-detail:last-child{ margin-bottom: 0; }
 
-.w-detail:after{ content:''; position: absolute; top: 0; height: 18px; width: 18px; border-radius: 20px;
+.w-detail:after{ content:''; position: absolute; top: 20px; height: 18px; width: 18px; border-radius: 20px;
 	z-index: 1; border: 1px solid #aaa; background: #fff; }
 
 .w-detail.right{ text-align: left;  float: right; }
@@ -301,10 +301,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	
 .w-detail .title{ margin: 10px 0; }
 
-.w-detail .icon{ font-size: 3.5em; line-height: 1; color: #E45F74; }
+.w-detail .icon{ font-size: 2.5em; line-height: 1; color: #E45F74;  margin-right: 10px;
+    margin-top: 5px; }
 
-
-
+.w-detail .w-detail-heading{ display: inline-flex;}
+.w-detail .w-detail-heading .left{ margin-right: 0px; margin-left: 10px;}
 /* ---------------------------------
 8. WEDDING CEREMONY
 --------------------------------- */
